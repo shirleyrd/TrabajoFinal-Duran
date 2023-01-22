@@ -28,6 +28,11 @@ formulario.addEventListener("submit", (e) => {
 
 /**Funciones**/
 
+
+
+
+
+
 function cargaCliente () {
     const nombre = document.getElementById("nombre").value;
     const apellido = document.getElementById("apellido").value;

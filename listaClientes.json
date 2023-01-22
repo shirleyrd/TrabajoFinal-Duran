@@ -1,0 +1,14 @@
+ [
+    {"nombre": "Laura", "apellido": "Rios", "telefono": "2974219716", "email": "laura@gmail.com" },
+    {"nombre": "Marina", "apellido": "Almada", "telefono": "2974125841", "email": "marinaa@gmail.com" },
+    {"nombre": "Cecilia", "apellido": "Batista", "telefono": "1142158415", "email": "chechua@gmail.com" },
+    {"nombre": "Lara", "apellido": "Mendez", "telefono": "2974425152", "email": "laritaa@hotmail.com" },
+    {"nombre": "Karen", "apellido": "Lopez", "telefono": "115241526", "email": "karenlop@hotmail.com" },
+    {"nombre": "Ezequiel", "apellido": "Mendez", "telefono": "2975621421", "email": "ezequielm@gmail.com"},
+    {"nombre": "Manuel", "apellido": "Cardenas", "telefono": "114425152", "email": "mcardenas@hotmail.com" },
+    {"nombre": "Priscila", "apellido": "Nuñez", "telefono": "297457484", "email": "prscimn@gmail.com" },
+    {"nombre": "Emiliano", "apellido": "Gutierrez", "telefono": "114215841", "email": "emilbest@hotmail.com" },
+    {"nombre": "Barbara", "apellido": "Alario", "telefono": "2805485762", "email": "barby_bl@gmail.com" }  
+    
+        
+]

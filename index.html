@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carga de clientes y sewrvicios realizados</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-    <form id= "formulario">
+    <div class="ingresarClientes">
+        <h1>Sistema de carga de datos clientes y servicios realizados</h1>
+
+    <form action="" id="formulario"  class="formularios">
         <div>
             <h2>Datos nuevo Cliente</h2>
         </div>
@@ -49,12 +53,15 @@
         <button id="botonCargados">Información nuevo cliente</button>
         <div id="datosCargadosCliente"></div>
 
+        <button id="botonListado" >Ver listado clientes</button>
+        <div id="listadoClientes"></div>
+
        
 
 
     </form>
 
     <script src="./main.js"></script>
-    <script src="./servicios.js"></script>
+    <script src="./clientes.js"></script>
 </body>
 </html>

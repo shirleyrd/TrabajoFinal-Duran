@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+   font-family:'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+     
+        background-image: url(../css/img/tijerabcgtransparencia.png);
+        background-color:dimgrey;
+        font-size: 5rem;
+        padding-top: 20px;
+     
+      
+}
+
+h1 {
+    color: #f3cad5;
+    font
+}
