@@ -83,6 +83,32 @@ h3 {
     margin: 20px;
 
 }
+
+.button-carga {
+    display: flex;
+}
+#botonAceptar {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.containerBoton{
     
+    background-color: #c02951;
+}
+.contClientes {
+    background-color: bisque;
+}
 
-
+#datosCargadosCliente {
+    display: flex;
+    margin:auto;
+    padding : 20px;
+    width: 80%;
+    line-height: 1.5rem;
+    height:fit-content;
+    background-color:#c02951;
+}

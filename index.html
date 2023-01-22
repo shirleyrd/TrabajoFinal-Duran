@@ -14,7 +14,7 @@
 
     <form action="" id="formulario"  class="formularios">
         <div>
-            <h2>Datos nuevo Cliente</h2>
+            <h2>Datos Cliente</h2>
         </div>
         <div id="cargaClientes">
             <label for="nombre">Nombre</label>    
@@ -31,39 +31,35 @@
                 <h3>Servicios</h3>
             </div>
 
+        <div>
             <label for="servicios">Servicios Realizados</label>
             <input class="informacion" id="servicios" type="text" placeholder="Color,Corte,Manos">
+        </div>     
+        <div class="observacion">
+            <label for="observaciones">Descripción de servicio</label>
+            <p><textarea id="observaciones" name="" placeholder="Detalle de productos y servivicios dados"></textarea></p>
+         </div> 
+
+          <div class="button-carga">
+              <button type="submit" class="botones" id = "botonAceptar">Aceptar</button>
+          </div>
            
-
-
-
-        </div>
-
-        
-        
-        <div class="containerBoton">
-             <div class="button-carga">
-                 <button type="submit" class="botones" id = "botonAceptar">Aceptar</button>
-             </div>
-  
-             
+    
+    </form>
+    </div>         
+                     
              <button class = "botones" id="botonCargados">Información nuevo cliente</button>
              <div id="datosCargadosCliente"></div>
      
-                <button class="botones" id="botonListado" >Ver listado clientes</button>
+             <button class="botones" id="botonListado" >Ver listado clientes</button>
              <div id="listadoClientes"></div>
          </div>
         
 
 
-        
-
-
-       
-
-
-    </form>
-
+         
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./main.js"></script>
     <script src="./clientes.js"></script>
 </body>
