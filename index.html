@@ -18,14 +18,14 @@
         </div>
         <div id="cargaClientes">
             <label for="nombre">Nombre</label>    
-            <input id="nombre" type="text" placeholder="Nombre cliente">
+            <input class="informacion"id="nombre" type="text" placeholder="Nombre cliente">
             <label for="apellido">Apellido</label>
-            <input id="apellido" type="text" placeholder="Apellido cliente">
+            <input class="informacion"id="apellido" type="text" placeholder="Apellido cliente">
             <br>
             <label for="telefono">Telefono</label>
-            <input id="telefono" type="text" placeholder="Teléfono cliente">
+            <input class="informacion"id="telefono" type="text" placeholder="Teléfono cliente">
             <label for="email">Email</label>
-            <input type="email" name="" id="email" placeholder="Email cliente">
+            <input class="informacion" type="email" name="" id="email" placeholder="Email cliente">
 
             <div>
                 <h3>Servicios</h3>
@@ -40,21 +40,24 @@
         </div>
 
         
-        <div>
-            <h2>Porfesionales</h2>
-            <ul id="listaProfesionales"></ul>
-        </div>
         
-        <div class="button-carga">
-            <button type="submit" class="btn-aceptar" id = "botonAceptar">Aceptar</button>
-        </div>
+        <div class="containerBoton">
+             <div class="button-carga">
+                 <button type="submit" class="botones" id = "botonAceptar">Aceptar</button>
+             </div>
+  
+             
+             <button class = "botones" id="botonCargados">Información nuevo cliente</button>
+             <div id="datosCargadosCliente"></div>
+     
+                <button class="botones" id="botonListado" >Ver listado clientes</button>
+             <div id="listadoClientes"></div>
+         </div>
+        
+
 
         
-        <button id="botonCargados">Información nuevo cliente</button>
-        <div id="datosCargadosCliente"></div>
 
-        <button id="botonListado" >Ver listado clientes</button>
-        <div id="listadoClientes"></div>
 
        
 

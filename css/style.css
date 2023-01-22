@@ -18,14 +18,65 @@ a {
 body {
      
         background-image: url(../css/img/tijerabcgtransparencia.png);
-        background-color:dimgrey;
-        font-size: 5rem;
-        padding-top: 20px;
-     
+        background-color:rgb(230, 221, 221);
+         
       
 }
 
 h1 {
-    color: #f3cad5;
-    font
+    color: #c02951;
+    font-size: 35px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
 }
+
+h2 {
+    color:#f3cad5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.formularios {
+  
+  background: #1a1a1d;
+  height: 500px;
+  width: 80%;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 80px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-inline: 55px;  
+  color: #f3cad5;
+  line-height: 15pt; 
+  justify-content: center;
+}
+
+.informacion {
+    height: 30px;
+    width: 200px;
+    margin: 20px;   
+
+}
+
+
+.containerBoton {
+    display: flex;
+    margin-top :80px;
+    justify-content: center;
+}
+.botones {
+    
+    justify-content: center;
+    flex-direction: columns;     
+    width: 150px ;
+    height: 40px;
+    margin: 20px;
+
+}
+    
+
+
