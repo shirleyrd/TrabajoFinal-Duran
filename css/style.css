@@ -112,3 +112,8 @@ h3 {
     height:fit-content;
     background-color:#c02951;
 }
+
+#observaciones {
+    width: 900px;
+    height:100px;
+}

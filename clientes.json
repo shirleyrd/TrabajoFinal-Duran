@@ -8,7 +8,8 @@
     {"nombre": "Manuel", "apellido": "Cardenas", "telefono": "114425152", "email": "mcardenas@hotmail.com" },
     {"nombre": "Priscila", "apellido": "Nuñez", "telefono": "297457484", "email": "prscimn@gmail.com" },
     {"nombre": "Emiliano", "apellido": "Gutierrez", "telefono": "114215841", "email": "emilbest@hotmail.com" },
-    {"nombre": "Barbara", "apellido": "Alario", "telefono": "2805485762", "email": "barby_bl@gmail.com" }  
+    {"nombre": "Barbara", "apellido": "Alario", "telefono": "2805485762", "email": "barby_bl@gmail.com" },
+    {"nombre": "Rogelio", "apellido": "Hernandez", "telefono": "114514875", "email": "rogerwil@gmail.com" }  
     
         
 ]

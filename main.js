@@ -34,6 +34,8 @@ formulario.addEventListener("submit", (e) => {
     
 });
 
+
+
 /**Funciones**/
 
 
@@ -82,3 +84,10 @@ function informacionCliente() {
     });
 }
 
+/*Funcion para que luego de unos segundos la informacion del cliente no se vea*/
+
+setTimeout(function(){ 
+    document.getElementById("datosCargadosCliente").style.display = "none";
+ }, 8000);
+ 
+ 
