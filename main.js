@@ -88,6 +88,9 @@ function informacionCliente() {
 
 setTimeout(function(){ 
     document.getElementById("datosCargadosCliente").style.display = "none";
- }, 8000);
+ }, 9000);
+
+
+
  
  
